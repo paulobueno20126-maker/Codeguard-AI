@@ -39,7 +39,7 @@ cd Codeguard-AI
 2. Configurar o Backend (Servidor Python)
 Entra na pasta do Backend:
 
-```bash
+bash
 cd Backend
 Cria o teu ambiente virtual (.venv) e instala os pacotes necessários:
 
@@ -77,3 +77,4 @@ Abre o link gerado no teu navegador (normalmente http://localhost:5173) e testa 
 Este repositório segue rigorosamente os padrões de segurança da indústria. O arquivo real contendo as chaves de API (.env) está incluído no .gitignore local e nunca é exposto publicamente na internet.
 
 Desenvolvido com 💻 por Paulo Bueno para o Showcase da Buildspace.
+```
