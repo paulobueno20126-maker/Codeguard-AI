@@ -34,14 +34,14 @@ O **CodeGuard AI** é um assistente de engenharia de software full-stack sénior
 ### 1. Clonar o Repositório
 ```bash
 git clone [https://github.com/paulobueno20126-maker/Codeguard-AI.git](https://github.com/paulobueno20126-maker/Codeguard-AI.git)
-cd Codeguard-AI
+cd Codeguard-AI ```
 
 2. Configurar o Backend (Servidor Python)
 Entra na pasta do Backend:
 
 bash
 cd Backend
-Cria o teu ambiente virtual (.venv) e instala os pacotes necessários:
+Cria o teu ambiente virtual (.venv) e instala os pacotes necessários:```
 
 Bash
 python -m venv .venv
