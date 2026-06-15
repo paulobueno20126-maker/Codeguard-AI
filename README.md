@@ -35,3 +35,45 @@ O **CodeGuard AI** é um assistente de engenharia de software full-stack sénior
 ```bash
 git clone [https://github.com/paulobueno20126-maker/Codeguard-AI.git](https://github.com/paulobueno20126-maker/Codeguard-AI.git)
 cd Codeguard-AI
+
+2. Configurar o Backend (Servidor Python)
+Entra na pasta do Backend:
+
+Bash
+cd Backend
+Cria o teu ambiente virtual (.venv) e instala os pacotes necessários:
+
+Bash
+python -m venv .venv
+# Ativa o ambiente (Windows)
+.venv\Scripts\activate
+# Instala as dependências
+pip install python-dotenv google-generativeai flask flask-cors
+Cria um ficheiro chamado .env baseado no Exemplo.env e coloca a tua chave de API do Google AI Studio:
+
+Plaintext
+GEMINI_API_KEY=AIzaSyAQUI_VEM_A_TUA_CHAVE_REAL
+Inicia o servidor:
+
+Bash
+python app.py
+
+3. Configurar o Frontend (Interface React)
+Abre um novo terminal na raiz do projeto e entra na pasta do Frontend:
+
+Bash
+cd Frontend
+Instala as dependências do ecossistema Node:
+
+Bash
+npm install
+Inicia o servidor de desenvolvimento do Vite:
+
+Bash
+npm run dev
+Abre o link gerado no teu navegador (normalmente http://localhost:5173) e testa o sistema!
+
+🔒 Segurança de Credenciais
+Este repositório segue rigorosamente os padrões de segurança da indústria. O arquivo real contendo as chaves de API (.env) está incluído no .gitignore local e nunca é exposto publicamente na internet.
+
+Desenvolvido com 💻 por Paulo Bueno para o Showcase da Buildspace.
